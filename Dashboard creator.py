@@ -84,5 +84,5 @@ def main():
             ax.text(i, v+2, str(v), ha='center', fontweight='bold')
         st.pyplot(fig)
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
